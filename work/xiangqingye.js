@@ -22,6 +22,7 @@ pitch3.onclick= function(){
 }
 pitch5.onclick= function(){
     if(pitch4.innerHTML==5){
+    	pitch5.style.cursor = "not-allowed";
         pitch5.setAttribute("style","color: #aca7a2;");
         pitch3.setAttribute("style","color: #000;");
     }
